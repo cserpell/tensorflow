@@ -706,7 +706,7 @@ class Model(base_layer.Layer, version_utils.ModelVersionSelector):
     This method can be overridden to support custom training logic.
     This method is called by `Model.make_train_function`.
 
-    This method should contain the mathemetical logic for one step of training.
+    This method should contain the mathematical logic for one step of training.
     This typically includes the forward pass, loss calculation, backpropagation,
     and metric updates.
 
@@ -1131,7 +1131,7 @@ class Model(base_layer.Layer, version_utils.ModelVersionSelector):
     This method can be overridden to support custom evaluation logic.
     This method is called by `Model.make_test_function`.
 
-    This function should contain the mathemetical logic for one step of
+    This function should contain the mathematical logic for one step of
     evaluation.
     This typically includes the forward pass, loss calculation, and metrics
     updates.
@@ -1377,7 +1377,7 @@ class Model(base_layer.Layer, version_utils.ModelVersionSelector):
     This method can be overridden to support custom inference logic.
     This method is called by `Model.make_predict_function`.
 
-    This method should contain the mathemetical logic for one step of inference.
+    This method should contain the mathematical logic for one step of inference.
     This typically includes the forward pass.
 
     Configuration details for *how* this logic is run (e.g. `tf.function` and
